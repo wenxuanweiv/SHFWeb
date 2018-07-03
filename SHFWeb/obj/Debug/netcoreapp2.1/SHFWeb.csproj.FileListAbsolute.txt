@@ -34,3 +34,4 @@ E:\SHFWeb\SHFWeb\obj\Debug\netcoreapp2.1\SHFWeb.Views.pdb
 E:\SHFWeb\SHFWeb\obj\Debug\netcoreapp2.1\SHFWeb.dll
 E:\SHFWeb\SHFWeb\obj\Debug\netcoreapp2.1\SHFWeb.pdb
 E:\SHFWeb\SHFWeb\obj\Debug\netcoreapp2.1\SHFWeb.csproj.CopyComplete
+E:\SHFWeb\SHFWeb\obj\Debug\netcoreapp2.1\Razor\Views\Todo\Index.g.cshtml.cs
