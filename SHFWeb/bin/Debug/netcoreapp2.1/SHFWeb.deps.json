@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "67a5d0c54aaed8f0c1470a95e34d8c5f9f68b4a7"
+    "signature": "d1fda66d50c5d75b7762b80ea216a12c5f7c83a7"
   },
   "compilationOptions": {
     "defines": [
@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v2.1": {
       "SHFWeb/1.0.0": {
         "dependencies": {
+          "Humanizer.Core": "2.4.2",
           "Microsoft.AspNetCore.App": "2.1.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "2.1.0",
           "Microsoft.NETCore.App": "2.1.0",
@@ -34,6 +35,17 @@
         },
         "compile": {
           "SHFWeb.dll": {}
+        }
+      },
+      "Humanizer.Core/2.4.2": {
+        "runtime": {
+          "lib/netstandard2.0/Humanizer.dll": {
+            "assemblyVersion": "2.4.0.0",
+            "fileVersion": "2.4.2.17710"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
@@ -3617,6 +3629,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Humanizer.Core/2.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bdHOGpZNL92TebkGuaBe/RpxUrDeRDZQLRdFPEbM+miGV1V3ITmw6iZtGYzp44DUd60Fmw5mgHG2HaFSC4hQdQ==",
+      "path": "humanizer.core/2.4.2",
+      "hashPath": "humanizer.core.2.4.2.nupkg.sha512"
     },
     "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
       "type": "package",
