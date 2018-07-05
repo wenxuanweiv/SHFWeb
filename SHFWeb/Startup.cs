@@ -30,7 +30,8 @@ namespace SHFWeb
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-            services.AddSingleton<ITodoItemService,FakeTodoItemService> ();
+            services.AddScoped<ITodoItemService,TodoItemService>();
+            //services.AddSingleton<ITodoItemService,FakeTodoItemService> ();
             services.Configure<CookiePolicyOptions>(options =>
             {
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
